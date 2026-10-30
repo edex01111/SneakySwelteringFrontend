@@ -1,6 +1,4 @@
 modules = ["python-base-3.13", "nodejs-24"]
 
-[userenv]
-
-[userenv.shared]
-TELEGRAM_BOT_API = "8740353685:AAHoCngijFllzRORhGKw_ZXGoYK5TY6_3NI"
+[nix]
+channel = "stable-25_05"
